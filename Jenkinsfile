@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage("Clone Code"){
             steps{
-                git url: "https://github.com/LondheShubham153/node-todo-cicd.git", branch: "master"
+                git url: "https://github.com/abhijithsuresh700/node-todo-cicd-master.git", branch: "main"
             }
         }
         stage("Build and Test"){
